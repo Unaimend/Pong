@@ -1,6 +1,7 @@
 #ifndef __Pong__Framework__
 #define __Pong__Framework__
 #include <SFML/Graphics.hpp>
+#include "Player.h"
 
 class Framework
 {
@@ -27,6 +28,7 @@ private:
     sf::RenderWindow    *pRenderWindow;
     sf::Event           *pMainEvent;
     bool mRun =         true;
+    Player              *pPlayer;
 };
 
 #endif /* defined(__Pong__Framework__) */

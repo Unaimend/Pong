@@ -9,6 +9,7 @@ Framework::Framework()
     pRenderWindow = new sf::RenderWindow(sf::VideoMode(1600,900,32), "PONG by Thomas Dost");
     pMainEvent = new sf::Event;
     pClock = new sf::Clock;
+    pPlayer = new Player(sf::Vector2f(500,500));
 };
 
 
@@ -41,6 +42,7 @@ void Framework::Run()
 void Framework::Render()
 {
     pRenderWindow->clear(sf::Color(120,0,120,255));
+    pPlayer->Render(pRenderWindow);
     pRenderWindow->display();
 };
 

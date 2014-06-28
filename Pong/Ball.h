@@ -8,7 +8,9 @@
 class Ball
 {
 public:                 //FUNCTIONS
-    
+    void                HandleEvents();
+    void                Render();
+    void                Update(double frametime);
 public:
     
 protected:              //FUNCTIONS
@@ -16,9 +18,7 @@ protected:              //FUNCTIONS
 protected:
     
 private:                //FUNCTIONS
-    void                HandleEvents();
-    void                Render();
-    void                Update(double frametime);
+
 private:
     
 

@@ -8,8 +8,11 @@
 class Player
 {
 public:                 //FUNCTIONS
-    Player(){};
-    ~Player(){};
+    Player(sf::Vector2f position);
+    ~Player();
+    void                HandleEvents();
+    void                Render(sf::RenderWindow *rw);
+    void                Update(double frametime);
 public:
     
 protected:              //FUNCTIONS
@@ -17,11 +20,10 @@ protected:              //FUNCTIONS
 protected:
     
 private:                //FUNCTIONS
-    void                HandleEvents();
-    void                Render();
-    void                Update(double frametime);
+
 private:
-    sf::Vector2f        pSize;
+    sf::Vector2f        *pSize;
+    sf::RectangleShape  *pPlayer;
 
 };
 #endif /* defined(__Pong__Player__) */
