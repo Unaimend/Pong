@@ -11,6 +11,7 @@ Framework::Framework()
     pClock = new sf::Clock;
     pPlayer = new Player(sf::Vector2f(30,500));
     pPlayer2 = new Player2(sf::Vector2f(1550,500));
+    pBall = new Ball(sf::Vector2f(800,450));
 };
 
 
@@ -46,6 +47,8 @@ void Framework::Render()
     pPlayer->Render(pRenderWindow);
 
     pPlayer2->Render(pRenderWindow);
+    
+    pBall->Render(pRenderWindow);
   
     pRenderWindow->display();
 };
@@ -57,6 +60,7 @@ void Framework::Update(double frametime)
 {
     pPlayer->Update(frametime);
     pPlayer2->Update(frametime);
+    pBall->Update(frametime);
 };
 
 
@@ -73,6 +77,7 @@ void Framework::HandleEvents()
         }
         pPlayer->HandleEvents();
         pPlayer2->HandleEvents();
+        pBall->HandleEvents();
     }
 };
 

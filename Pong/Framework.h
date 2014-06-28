@@ -3,7 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "Player.h"
 #include "Player2.h"
-
+#include "Ball.h"
 class Framework
 {
 public:                 //FUNCTIONS
@@ -31,6 +31,7 @@ private:
     bool mRun =         true;
     Player              *pPlayer;
     Player2             *pPlayer2;
+    Ball                *pBall;
 };
 
 #endif /* defined(__Pong__Framework__) */
