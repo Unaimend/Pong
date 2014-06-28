@@ -25,14 +25,6 @@ void Ball::Render(sf::RenderWindow *rw)
 
 
 
-void Ball::HandleEvents()
-{
-    
-};
-
-
-
-
 void Ball::Update(double frametime)
 {
     if (pBall->getPosition().y < 700)

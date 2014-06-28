@@ -4,6 +4,7 @@
 #include "Player.h"
 #include "Player2.h"
 #include "Ball.h"
+#include "/Users/Thomas/Documents/Collision.h"
 class Framework
 {
 public:                 //FUNCTIONS
@@ -32,6 +33,8 @@ private:
     Player              *pPlayer;
     Player2             *pPlayer2;
     Ball                *pBall;
+    
+    
 };
 
 #endif /* defined(__Pong__Framework__) */

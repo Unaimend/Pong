@@ -1,8 +1,8 @@
 #include "Framework.h"
 #include "SFML/Graphics.hpp"
+#include "/Users/Thomas/Documents/Collision.h"
 
-
-
+using namespace Collision;
 
 Framework::Framework()
 {
@@ -12,6 +12,8 @@ Framework::Framework()
     pPlayer = new Player(sf::Vector2f(30,500));
     pPlayer2 = new Player2(sf::Vector2f(1550,500));
     pBall = new Ball(sf::Vector2f(800,450));
+    
+    
 };
 
 
@@ -75,9 +77,7 @@ void Framework::HandleEvents()
         {
             mRun = false;
         }
-        pPlayer->HandleEvents();
-        pPlayer2->HandleEvents();
-        pBall->HandleEvents();
+
     }
 };
 
