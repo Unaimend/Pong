@@ -11,6 +11,12 @@
 		E90DF2E0195F3E420004F070 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2DE195F3E420004F070 /* Player.cpp */; };
 		E90DF2E3195F3E4A0004F070 /* Player2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2E1195F3E4A0004F070 /* Player2.cpp */; };
 		E90DF2E6195F3E510004F070 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2E4195F3E510004F070 /* Ball.cpp */; };
+		E90DF2ED195F41C20004F070 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2E7195F41C20004F070 /* SFML.framework */; };
+		E90DF2EE195F41C20004F070 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2E8195F41C20004F070 /* sfml-window.framework */; };
+		E90DF2EF195F41C20004F070 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2E9195F41C20004F070 /* sfml-system.framework */; };
+		E90DF2F0195F41C20004F070 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EA195F41C20004F070 /* sfml-network.framework */; };
+		E90DF2F1195F41C20004F070 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EB195F41C20004F070 /* sfml-graphics.framework */; };
+		E90DF2F2195F41C20004F070 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EC195F41C20004F070 /* sfml-audio.framework */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
 		E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C9C0F1195F1C140011CD9D /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +30,12 @@
 		E90DF2E2195F3E4A0004F070 /* Player2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player2.h; sourceTree = "<group>"; };
 		E90DF2E4195F3E510004F070 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
 		E90DF2E5195F3E510004F070 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		E90DF2E7195F41C20004F070 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/SFML.framework"; sourceTree = "<group>"; };
+		E90DF2E8195F41C20004F070 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
+		E90DF2E9195F41C20004F070 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		E90DF2EA195F41C20004F070 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		E90DF2EB195F41C20004F070 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		E90DF2EC195F41C20004F070 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
 		E9C9BE56195F1B660011CD9D /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9BE5A195F1B660011CD9D /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
 		E9C9BE65195F1B660011CD9D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
@@ -35,6 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90DF2ED195F41C20004F070 /* SFML.framework in Frameworks */,
+				E90DF2EE195F41C20004F070 /* sfml-window.framework in Frameworks */,
+				E90DF2EF195F41C20004F070 /* sfml-system.framework in Frameworks */,
+				E90DF2F0195F41C20004F070 /* sfml-network.framework in Frameworks */,
+				E90DF2F1195F41C20004F070 /* sfml-graphics.framework in Frameworks */,
+				E90DF2F2195F41C20004F070 /* sfml-audio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +62,12 @@
 		E9C9BE4C195F1B660011CD9D = {
 			isa = PBXGroup;
 			children = (
+				E90DF2E7195F41C20004F070 /* SFML.framework */,
+				E90DF2E8195F41C20004F070 /* sfml-window.framework */,
+				E90DF2E9195F41C20004F070 /* sfml-system.framework */,
+				E90DF2EA195F41C20004F070 /* sfml-network.framework */,
+				E90DF2EB195F41C20004F070 /* sfml-graphics.framework */,
+				E90DF2EC195F41C20004F070 /* sfml-audio.framework */,
 				E9C9BE58195F1B660011CD9D /* Pong */,
 				E9C9BE57195F1B660011CD9D /* Products */,
 			);
@@ -302,11 +326,13 @@
 		E9C9BE6C195F1B660011CD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Thomas/Documents/SFML-2.1-osx-clang-universal/Frameworks",
 				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SFML_SYSTEM = "";
 			};
@@ -315,11 +341,13 @@
 		E9C9BE6D195F1B660011CD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Users/Thomas/Documents/SFML-2.1-osx-clang-universal/Frameworks",
 				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SFML_SYSTEM = "";
 			};

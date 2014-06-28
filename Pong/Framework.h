@@ -4,26 +4,29 @@
 
 class Framework
 {
-public:             //FUNCTIONS
+public:                 //FUNCTIONS
     
-                    Framework();
-    ~Framework();
-    void            Run();
+                        Framework();
+                        ~Framework();
+    void                Run();
 public:
     
-protected:          //FUNCTIONS
+protected:              //FUNCTIONS
     
     
 protected:
     
-private:            //FUNCTIONS
-    void            HandleEvents();
-    void            Render();
-    void            Update();
-    void            GetFrameTime();
+private:                //FUNCTIONS
+    void                HandleEvents();
+    void                Render();
+    void                Update(double frametime);
+    void                GetFrameTime();
 private:
-
-
+    sf::Clock           *pClock;
+    double              mFrametime;
+    sf::RenderWindow    *pRenderWindow;
+    sf::Event           *pMainEvent;
+    bool mRun =         true;
 };
 
 #endif /* defined(__Pong__Framework__) */

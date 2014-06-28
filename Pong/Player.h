@@ -7,18 +7,21 @@
 
 class Player
 {
-public:             //FUNCTIONS
-    
+public:                 //FUNCTIONS
+    Player(){};
+    ~Player(){};
 public:
     
-protected:          //FUNCTIONS
+protected:              //FUNCTIONS
     
 protected:
     
-private:            //FUNCTIONS
-    
+private:                //FUNCTIONS
+    void                HandleEvents();
+    void                Render();
+    void                Update(double frametime);
 private:
-
+    sf::Vector2f        pSize;
 
 };
 #endif /* defined(__Pong__Player__) */

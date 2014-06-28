@@ -7,17 +7,21 @@
 
 class Player2
 {
-public:
+public:                 //FUNCTIONS
     
 public:
     
-protected:
+protected:              //FUNCTIONS
     
 protected:
     
+private:                //FUNCTIONS
+    void                HandleEvents();
+    void                Render();
+    void                Update(double frametime);
 private:
     
-private:
+
 
 };
 #endif /* defined(__Pong__Player2__) */
