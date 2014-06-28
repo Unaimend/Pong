@@ -87,11 +87,11 @@
 		E9C9C0EF195F1BB80011CD9D /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E9C9C0F1195F1C140011CD9D /* main.cpp */,
 				E90DF2DB195F3E390004F070 /* Framework.cpp */,
 				E90DF2DE195F3E420004F070 /* Player.cpp */,
 				E90DF2E1195F3E4A0004F070 /* Player2.cpp */,
 				E90DF2E4195F3E510004F070 /* Ball.cpp */,
+				E9C9C0F1195F1C140011CD9D /* main.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";

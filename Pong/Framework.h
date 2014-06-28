@@ -1,14 +1,29 @@
-//
-//  Framework.h
-//  Pong
-//
-//  Created by Thomas Dost on 28.06.14.
-//  Copyright (c) 2014 Thomas Dost. All rights reserved.
-//
-
 #ifndef __Pong__Framework__
 #define __Pong__Framework__
+#include <SFML/Graphics.hpp>
 
-#include <iostream>
+class Framework
+{
+public:             //FUNCTIONS
+    
+                    Framework();
+    ~Framework();
+    void            Run();
+public:
+    
+protected:          //FUNCTIONS
+    
+    
+protected:
+    
+private:            //FUNCTIONS
+    void            HandleEvents();
+    void            Render();
+    void            Update();
+    void            GetFrameTime();
+private:
+
+
+};
 
 #endif /* defined(__Pong__Framework__) */
