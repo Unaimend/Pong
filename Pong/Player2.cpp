@@ -34,4 +34,20 @@ void Player2::HandleEvents()
 
 void Player2::Update(double frametime)
 {
+    if (pPlayer->getPosition().y < 700)
+    {
+        
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down))
+        {
+            pPlayer->move(0, 200*frametime);
+        }
+    }
+    if (pPlayer->getPosition().y > 0)
+    {
+        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up))
+        {
+            pPlayer->move(0, -200*frametime);
+        }
+    }
+    
 };

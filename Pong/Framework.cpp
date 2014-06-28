@@ -44,14 +44,20 @@ void Framework::Render()
 {
     pRenderWindow->clear(sf::Color(120,0,120,255));
     pPlayer->Render(pRenderWindow);
+
     pPlayer2->Render(pRenderWindow);
+  
     pRenderWindow->display();
 };
 
 
 
 
-void Framework::Update(double frametime){};
+void Framework::Update(double frametime)
+{
+    pPlayer->Update(frametime);
+    pPlayer2->Update(frametime);
+};
 
 
 
@@ -65,6 +71,8 @@ void Framework::HandleEvents()
         {
             mRun = false;
         }
+        pPlayer->HandleEvents();
+        pPlayer2->HandleEvents();
     }
 };
 
