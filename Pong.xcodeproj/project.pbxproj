@@ -7,11 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E90DF2DD195F3E390004F070 /* Framework.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2DB195F3E390004F070 /* Framework.cpp */; };
+		E90DF2E0195F3E420004F070 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2DE195F3E420004F070 /* Player.cpp */; };
+		E90DF2E3195F3E4A0004F070 /* Player2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2E1195F3E4A0004F070 /* Player2.cpp */; };
+		E90DF2E6195F3E510004F070 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E90DF2E4195F3E510004F070 /* Ball.cpp */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
 		E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C9C0F1195F1C140011CD9D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E90DF2DB195F3E390004F070 /* Framework.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Framework.cpp; sourceTree = "<group>"; };
+		E90DF2DC195F3E390004F070 /* Framework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Framework.h; sourceTree = "<group>"; };
+		E90DF2DE195F3E420004F070 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		E90DF2DF195F3E420004F070 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E90DF2E1195F3E4A0004F070 /* Player2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player2.cpp; sourceTree = "<group>"; };
+		E90DF2E2195F3E4A0004F070 /* Player2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player2.h; sourceTree = "<group>"; };
+		E90DF2E4195F3E510004F070 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		E90DF2E5195F3E510004F070 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
 		E9C9BE56195F1B660011CD9D /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9BE5A195F1B660011CD9D /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
 		E9C9BE65195F1B660011CD9D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
@@ -76,6 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				E9C9C0F1195F1C140011CD9D /* main.cpp */,
+				E90DF2DB195F3E390004F070 /* Framework.cpp */,
+				E90DF2DE195F3E420004F070 /* Player.cpp */,
+				E90DF2E1195F3E4A0004F070 /* Player2.cpp */,
+				E90DF2E4195F3E510004F070 /* Ball.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -83,6 +99,10 @@
 		E9C9C0F0195F1BC60011CD9D /* Header */ = {
 			isa = PBXGroup;
 			children = (
+				E90DF2DC195F3E390004F070 /* Framework.h */,
+				E90DF2DF195F3E420004F070 /* Player.h */,
+				E90DF2E2195F3E4A0004F070 /* Player2.h */,
+				E90DF2E5195F3E510004F070 /* Ball.h */,
 			);
 			name = Header;
 			sourceTree = "<group>";
@@ -166,7 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90DF2DD195F3E390004F070 /* Framework.cpp in Sources */,
 				E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */,
+				E90DF2E0195F3E420004F070 /* Player.cpp in Sources */,
+				E90DF2E3195F3E4A0004F070 /* Player2.cpp in Sources */,
+				E90DF2E6195F3E510004F070 /* Ball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +344,7 @@
 				E9C9BE6D195F1B660011CD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
