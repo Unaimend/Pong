@@ -7,24 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9C9BE5C195F1B660011CD9D /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E9C9BE5B195F1B660011CD9D /* ResourcePath.mm */; };
-		E9C9BE5F195F1B660011CD9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C9BE5E195F1B660011CD9D /* main.cpp */; };
-		E9C9BE62195F1B660011CD9D /* cute_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE61195F1B660011CD9D /* cute_image.jpg */; };
-		E9C9BE64195F1B660011CD9D /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE63195F1B660011CD9D /* nice_music.ogg */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
-		E9C9BE68195F1B660011CD9D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE67195F1B660011CD9D /* icon.png */; };
+		E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C9C0F1195F1C140011CD9D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9C9BE56195F1B660011CD9D /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9BE5A195F1B660011CD9D /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
-		E9C9BE5B195F1B660011CD9D /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
-		E9C9BE5D195F1B660011CD9D /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
-		E9C9BE5E195F1B660011CD9D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		E9C9BE61195F1B660011CD9D /* cute_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cute_image.jpg; sourceTree = "<group>"; };
-		E9C9BE63195F1B660011CD9D /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = nice_music.ogg; sourceTree = "<group>"; };
 		E9C9BE65195F1B660011CD9D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
-		E9C9BE67195F1B660011CD9D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E9C9C0F1195F1C140011CD9D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +48,8 @@
 		E9C9BE58195F1B660011CD9D /* Pong */ = {
 			isa = PBXGroup;
 			children = (
-				E9C9BE5B195F1B660011CD9D /* ResourcePath.mm */,
-				E9C9BE5D195F1B660011CD9D /* ResourcePath.hpp */,
-				E9C9BE5E195F1B660011CD9D /* main.cpp */,
+				E9C9C0F0195F1BC60011CD9D /* Header */,
+				E9C9C0EF195F1BB80011CD9D /* Source */,
 				E9C9BE60195F1B660011CD9D /* Resources */,
 				E9C9BE59195F1B660011CD9D /* Supporting Files */,
 			);
@@ -77,12 +67,24 @@
 		E9C9BE60195F1B660011CD9D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E9C9BE61195F1B660011CD9D /* cute_image.jpg */,
-				E9C9BE63195F1B660011CD9D /* nice_music.ogg */,
 				E9C9BE65195F1B660011CD9D /* sansation.ttf */,
-				E9C9BE67195F1B660011CD9D /* icon.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E9C9C0EF195F1BB80011CD9D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E9C9C0F1195F1C140011CD9D /* main.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		E9C9C0F0195F1BC60011CD9D /* Header */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,10 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C9BE68195F1B660011CD9D /* icon.png in Resources */,
 				E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */,
-				E9C9BE64195F1B660011CD9D /* nice_music.ogg in Resources */,
-				E9C9BE62195F1B660011CD9D /* cute_image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,8 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9C9BE5F195F1B660011CD9D /* main.cpp in Sources */,
-				E9C9BE5C195F1B660011CD9D /* ResourcePath.mm in Sources */,
+				E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,16 +278,26 @@
 		E9C9BE6C195F1B660011CD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Thomas/Documents/SFML-2.1-osx-clang-universal/Frameworks",
+				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SFML_SYSTEM = "";
 			};
 			name = Debug;
 		};
 		E9C9BE6D195F1B660011CD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Thomas/Documents/SFML-2.1-osx-clang-universal/Frameworks",
+				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SFML_SYSTEM = "";
 			};
 			name = Release;
 		};
