@@ -2,6 +2,9 @@
 #include "SFML/Graphics.hpp"
 #include "/Users/Thomas/Documents/Collision.h"
 
+
+#include "iostream"
+
 using namespace Collision;
 
 Framework::Framework()
@@ -63,6 +66,29 @@ void Framework::Update(double frametime)
     pPlayer->Update(frametime);
     pPlayer2->Update(frametime);
     pBall->Update(frametime);
+    if(PixelPerfectTest(pPlayer->getSprite(), pBall->getBall()) == true)
+    {
+        std::cout << "JUHU" ;
+        
+    }
+    if(PixelPerfectTest(pPlayer2->getPlayer(), pBall->getBall()) == true)
+    {
+        std::cout << "JUHU" ;
+        
+    }
+    if(pBall->getBall().getPosition().x <= 0)
+    {
+        std::cout << "JUHU" ;
+        
+        
+        pBall->setPosition(sf::Vector2f(500,500));
+    }
+    if(pBall->getBall().getPosition().x > 880)
+    {
+        std::cout << "JUHU" ;
+        
+        
+    }
 };
 
 

@@ -9,7 +9,7 @@ class Player
 {
 public:                 //FUNCTIONS
     Player(sf::Vector2f position);
-    sf::RectangleShape getPlayer(){return *pPlayer;};
+    sf::Sprite getSprite(){return *pSprite;};
     ~Player();
     void                Render(sf::RenderWindow *rw);
     void                Update(double frametime);

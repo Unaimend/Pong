@@ -11,6 +11,7 @@ public:                 //FUNCTIONS
     Player2(sf::Vector2f position);
     ~Player2();
     sf::Sprite getPlayer(){return *pSprite;};
+    
     void                HandleEvents();
     void                Render(sf::RenderWindow *rw);
     void                Update(double frametime);
@@ -27,5 +28,6 @@ private:
     sf::RectangleShape  *pPlayer;
     sf::Sprite          *pSprite;
     sf::Texture         *pTexture;
+ 
 };
 #endif /* defined(__Pong__Player__) */

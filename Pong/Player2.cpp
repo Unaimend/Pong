@@ -1,7 +1,7 @@
 #include "Player2.h"
 Player2::Player2(sf::Vector2f position)
 {
-
+    
     pTexture = new sf::Texture();
     pSprite = new sf::Sprite();
     pTexture->loadFromFile("/Users/Thomas/Downloads/PongPlayer.png");
