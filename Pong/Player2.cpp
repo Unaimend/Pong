@@ -39,14 +39,14 @@ void Player2::Update(double frametime)
         
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Down))
         {
-            pSprite->move(0, 200*frametime);
+            pSprite->move(0, 300*frametime);
         }
     }
     if (pSprite->getPosition().y > 0)
     {
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Up))
         {
-            pSprite->move(0, -200*frametime);
+            pSprite->move(0, -300*frametime);
         }
     }
     

@@ -10,6 +10,7 @@ using namespace Collision;
 Framework::Framework()
 {
     pRenderWindow = new sf::RenderWindow(sf::VideoMode(1600,900,32), "PONG by Thomas Dost");
+    pRenderWindow->setVerticalSyncEnabled(true);
     pMainEvent = new sf::Event;
     pClock = new sf::Clock;
     pPlayer = new Player(sf::Vector2f(30,500));
@@ -69,26 +70,42 @@ void Framework::Update(double frametime)
     if(PixelPerfectTest(pPlayer->getSprite(), pBall->getBall()) == true)
     {
         std::cout << "JUHU" ;
+        pBall->setMoveSPeed(600 );
+
         
     }
     if(PixelPerfectTest(pPlayer2->getPlayer(), pBall->getBall()) == true)
     {
         std::cout << "JUHU" ;
+        pBall->setMoveSPeed(-600 );
+
         
     }
     if(pBall->getBall().getPosition().x <= 0)
     {
-        std::cout << "JUHU" ;
         
         
-        pBall->setPosition(sf::Vector2f(500,500));
+       // pBall->setPosition(sf::Vector2f(500,500));
     }
-    if(pBall->getBall().getPosition().x > 880)
+    if(pBall->getBall().getPosition().x >= 1560)
     {
-        std::cout << "JUHU" ;
+       
         
         
     }
+    if(pBall->getBall().getPosition().y <= 10)
+    {
+        
+        pBall->setMoveSPeed2(600 );
+        
+    }
+    if(pBall->getBall().getPosition().y >= 870)
+    {
+        
+        pBall->setMoveSPeed2(-600 );
+        
+    }
+    
 };
 
 

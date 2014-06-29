@@ -18,6 +18,7 @@
 		E90DF2F1195F41C20004F070 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EB195F41C20004F070 /* sfml-graphics.framework */; };
 		E90DF2F2195F41C20004F070 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EC195F41C20004F070 /* sfml-audio.framework */; };
 		E96E2C1A195F5D6A00F2402E /* Collsiion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96E2C18195F5D6A00F2402E /* Collsiion.cpp */; };
+		E9B6394E196004E000489186 /* CollissionSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B6394C196004E000489186 /* CollissionSystem.cpp */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
 		E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9C9C0F1195F1C140011CD9D /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -39,6 +40,8 @@
 		E90DF2EC195F41C20004F070 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
 		E96E2C18195F5D6A00F2402E /* Collsiion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Collsiion.cpp; path = ../../../Documents/Collsiion.cpp; sourceTree = "<group>"; };
 		E96E2C19195F5D6A00F2402E /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Collision.h; path = ../../../Documents/Collision.h; sourceTree = "<group>"; };
+		E9B6394C196004E000489186 /* CollissionSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollissionSystem.cpp; sourceTree = "<group>"; };
+		E9B6394D196004E000489186 /* CollissionSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollissionSystem.h; sourceTree = "<group>"; };
 		E9C9BE56195F1B660011CD9D /* Pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9BE5A195F1B660011CD9D /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
 		E9C9BE65195F1B660011CD9D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
@@ -120,6 +123,7 @@
 				E90DF2E4195F3E510004F070 /* Ball.cpp */,
 				E96E2C18195F5D6A00F2402E /* Collsiion.cpp */,
 				E9C9C0F1195F1C140011CD9D /* main.cpp */,
+				E9B6394C196004E000489186 /* CollissionSystem.cpp */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -131,6 +135,7 @@
 				E90DF2DF195F3E420004F070 /* Player.h */,
 				E90DF2E2195F3E4A0004F070 /* Player2.h */,
 				E90DF2E5195F3E510004F070 /* Ball.h */,
+				E9B6394D196004E000489186 /* CollissionSystem.h */,
 				E96E2C19195F5D6A00F2402E /* Collision.h */,
 			);
 			name = Header;
@@ -220,6 +225,7 @@
 				E9C9C0F2195F1C140011CD9D /* main.cpp in Sources */,
 				E90DF2E0195F3E420004F070 /* Player.cpp in Sources */,
 				E90DF2E3195F3E4A0004F070 /* Player2.cpp in Sources */,
+				E9B6394E196004E000489186 /* CollissionSystem.cpp in Sources */,
 				E90DF2E6195F3E510004F070 /* Ball.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

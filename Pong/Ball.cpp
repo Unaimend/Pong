@@ -1,7 +1,8 @@
 #include "Ball.h"
 Ball::Ball(sf::Vector2f position)
 {
-    
+    movespeed = 300;
+    movespeed2 = 300;
     pTexture = new sf::Texture();
     pSprite = new sf::Sprite();
     pTexture->loadFromFile("/Users/Thomas/Downloads/PBALL.png");
@@ -31,20 +32,11 @@ void Ball::Render(sf::RenderWindow *rw)
 
 void Ball::Update(double frametime)
 {
-    if (pSprite->getPosition().y < 700)
+    
+    if (pSprite->getPosition().y < 880 && pSprite->getPosition().y > 0  && pSprite->getPosition().x <= 1580 && pSprite->getPosition().x > 0)
     {
         
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::Q))
-        {
-            pSprite->move(-200*frametime, 0);
-        }
-    }
-    if (pSprite->getPosition().y > 0)
-    {
-        if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::E))
-        {
-            pSprite->move(200*frametime, 0);
-        }
+        pSprite->move(movespeed*frametime, movespeed2/2*frametime);
     }
     
-};
+}
