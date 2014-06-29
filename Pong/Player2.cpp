@@ -4,7 +4,7 @@ Player2::Player2(sf::Vector2f position)
     
     pTexture = new sf::Texture();
     pSprite = new sf::Sprite();
-    pTexture->loadFromFile("/Users/Thomas/Downloads/PongPlayer.png");
+    pTexture->loadFromFile("/Users/Thomas/Desktop/Pong/Pong/PongPlayer.png");
     pSprite->setTexture(*pTexture);
     pSprite->setPosition(position);
     pSprite->setOrigin(0,0 );

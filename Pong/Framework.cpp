@@ -1,6 +1,6 @@
 #include "Framework.h"
 #include "SFML/Graphics.hpp"
-#include "/Users/Thomas/Documents/Collision.h"
+#include "Collision.h"
 
 //Todo
 /*

@@ -5,7 +5,7 @@ Ball::Ball(sf::Vector2f position)
     movespeed2 = 300;
     pTexture = new sf::Texture();
     pSprite = new sf::Sprite();
-    pTexture->loadFromFile("/Users/Thomas/Downloads/PBALL.png");
+    pTexture->loadFromFile("/Users/Thomas/Downloads/PBall.png");
     pSprite->setTexture(*pTexture);
     pSprite->setPosition(position);
     pSprite->setOrigin(0,0 );

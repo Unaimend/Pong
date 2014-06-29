@@ -4,7 +4,7 @@
 #include "Player.h"
 #include "Player2.h"
 #include "Ball.h"
-#include "/Users/Thomas/Documents/Collision.h"
+#include "Collision.h"
 class Framework
 {
 public:                 //FUNCTIONS
