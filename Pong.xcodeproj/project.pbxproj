@@ -17,6 +17,7 @@
 		E90DF2F0195F41C20004F070 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EA195F41C20004F070 /* sfml-network.framework */; };
 		E90DF2F1195F41C20004F070 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EB195F41C20004F070 /* sfml-graphics.framework */; };
 		E90DF2F2195F41C20004F070 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EC195F41C20004F070 /* sfml-audio.framework */; };
+		E950FFD8196016CC00BEBD57 /* Wolken.png in Resources */ = {isa = PBXBuildFile; fileRef = E950FFD7196016CC00BEBD57 /* Wolken.png */; };
 		E96E2C1A195F5D6A00F2402E /* Collsiion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E96E2C18195F5D6A00F2402E /* Collsiion.cpp */; };
 		E9B6394E196004E000489186 /* CollissionSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B6394C196004E000489186 /* CollissionSystem.cpp */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
@@ -38,6 +39,7 @@
 		E90DF2EA195F41C20004F070 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
 		E90DF2EB195F41C20004F070 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
 		E90DF2EC195F41C20004F070 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		E950FFD7196016CC00BEBD57 /* Wolken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wolken.png; sourceTree = "<group>"; };
 		E96E2C18195F5D6A00F2402E /* Collsiion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Collsiion.cpp; path = ../../../Documents/Collsiion.cpp; sourceTree = "<group>"; };
 		E96E2C19195F5D6A00F2402E /* Collision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Collision.h; path = ../../../Documents/Collision.h; sourceTree = "<group>"; };
 		E9B6394C196004E000489186 /* CollissionSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollissionSystem.cpp; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		E9C9BE4C195F1B660011CD9D = {
 			isa = PBXGroup;
 			children = (
+				E950FFD7196016CC00BEBD57 /* Wolken.png */,
 				E90DF2E7195F41C20004F070 /* SFML.framework */,
 				E90DF2E8195F41C20004F070 /* sfml-window.framework */,
 				E90DF2E9195F41C20004F070 /* sfml-system.framework */,
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */,
+				E950FFD8196016CC00BEBD57 /* Wolken.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,14 +2,18 @@
 #include "SFML/Graphics.hpp"
 #include "/Users/Thomas/Documents/Collision.h"
 
-
+//Todo
+/*
+    spieler richtung abfrgae y richtung wenn nach obenn dann nach untenn wenn still dann gerade wenn nach unten dann nach oben
+ 
+ */
 #include "iostream"
 
 using namespace Collision;
 
 Framework::Framework()
 {
-    pRenderWindow = new sf::RenderWindow(sf::VideoMode(1600,900,32), "PONG by Thomas Dost");
+    pRenderWindow = new sf::RenderWindow(sf::VideoMode(1600,900,32), "PONG by Thomas Dost v1.0.0");
     pRenderWindow->setVerticalSyncEnabled(true);
     pMainEvent = new sf::Event;
     pClock = new sf::Clock;
