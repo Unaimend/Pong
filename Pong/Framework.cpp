@@ -87,15 +87,13 @@ void Framework::Update(double frametime)
     }
     if(pBall->getBall().getPosition().x <= 0)
     {
-        
-        
+        pBall->getBall().setPosition(800,450 );
+        pBall->setNewPos(true);
        // pBall->setPosition(sf::Vector2f(500,500));
     }
-    if(pBall->getBall().getPosition().x >= 1560)
+    if(pBall->getBall().getPosition().x >= 1580)
     {
-       
-        
-        
+        pBall->setNewPos(true);
     }
     if(pBall->getBall().getPosition().y <= 10)
     {
@@ -109,7 +107,7 @@ void Framework::Update(double frametime)
         pBall->setMoveSPeed2(-600 );
         
     }
-    
+   
 };
 
 

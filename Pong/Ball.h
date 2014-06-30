@@ -10,10 +10,12 @@ class Ball
 public:                 //FUNCTIONS
     void                Render(sf::RenderWindow *rw);
     sf::Sprite getBall(){return *pSprite;};
-    void setPosition(sf::Vector2f newpos){mPos = newpos;};
+    //void setPosition(sf::Vector2f newpos){mPos = newpos;};
+    void setNewPos(bool newpos2){newpos = newpos2;};
     void setMoveSPeed(double newspeed = 150){movespeed =  newspeed;};
     
     void setMoveSPeed2(double newspeed2 = 150){movespeed2 =  newspeed2;};
+    
     void                Update(double frametime);
     Ball(sf::Vector2f position);
     ~Ball();
@@ -33,5 +35,6 @@ private:
     sf::Vector2f mPos;
     double movespeed;
     double movespeed2;
+    bool newpos = false;
 };
 #endif /* defined(__Pong__Ball__) */
