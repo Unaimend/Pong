@@ -33,7 +33,12 @@ private:
     Player              *pPlayer;
     Player2             *pPlayer2;
     Ball                *pBall;
-    
+    sf::Text            mtext;
+    sf::Font font;
+    sf::Text            mtext2;
+    sf::Font            font2;
+     char player2score[2] = "0";
+    char playerscore[2] = "0";
     
 };
 

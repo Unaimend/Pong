@@ -17,8 +17,8 @@
 		E90DF2F0195F41C20004F070 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EA195F41C20004F070 /* sfml-network.framework */; };
 		E90DF2F1195F41C20004F070 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EB195F41C20004F070 /* sfml-graphics.framework */; };
 		E90DF2F2195F41C20004F070 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E90DF2EC195F41C20004F070 /* sfml-audio.framework */; };
-		E950FFDB1960658300BEBD57 /* PBall.png in Resources */ = {isa = PBXBuildFile; fileRef = E950FFD91960658300BEBD57 /* PBall.png */; };
-		E950FFDC1960658300BEBD57 /* PongPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = E950FFDA1960658300BEBD57 /* PongPlayer.png */; };
+		E933387A19666CB0008D7FE9 /* PBall.png in Resources */ = {isa = PBXBuildFile; fileRef = E933387919666CB0008D7FE9 /* PBall.png */; };
+		E933387C19666CBB008D7FE9 /* PongPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = E933387B19666CBB008D7FE9 /* PongPlayer.png */; };
 		E950FFDF1960662B00BEBD57 /* Collsiion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E950FFDE1960662B00BEBD57 /* Collsiion.cpp */; };
 		E9B6394E196004E000489186 /* CollissionSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9B6394C196004E000489186 /* CollissionSystem.cpp */; };
 		E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9C9BE65195F1B660011CD9D /* sansation.ttf */; };
@@ -40,13 +40,13 @@
 		E90DF2EA195F41C20004F070 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
 		E90DF2EB195F41C20004F070 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
 		E90DF2EC195F41C20004F070 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../Documents/SFML-2.1-osx-clang-universal/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
-		E950FFD91960658300BEBD57 /* PBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PBall.png; path = ../../../Downloads/PBall.png; sourceTree = "<group>"; };
-		E950FFDA1960658300BEBD57 /* PongPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PongPlayer.png; path = ../../../Downloads/PongPlayer.png; sourceTree = "<group>"; };
+		E933387919666CB0008D7FE9 /* PBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PBall.png; path = ../../../../Downloads/PBall.png; sourceTree = "<group>"; };
+		E933387B19666CBB008D7FE9 /* PongPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PongPlayer.png; path = ../../../../Downloads/PongPlayer.png; sourceTree = "<group>"; };
 		E950FFDD1960662400BEBD57 /* Collision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collision.h; sourceTree = "<group>"; };
 		E950FFDE1960662B00BEBD57 /* Collsiion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Collsiion.cpp; sourceTree = "<group>"; };
 		E9B6394C196004E000489186 /* CollissionSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollissionSystem.cpp; sourceTree = "<group>"; };
 		E9B6394D196004E000489186 /* CollissionSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollissionSystem.h; sourceTree = "<group>"; };
-		E9C9BE56195F1B660011CD9D /* Pong v1.0.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong v1.0.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C9BE56195F1B660011CD9D /* Pong v1.1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pong v1.1.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C9BE5A195F1B660011CD9D /* Pong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pong-Info.plist"; sourceTree = "<group>"; };
 		E9C9BE65195F1B660011CD9D /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sansation.ttf; sourceTree = "<group>"; };
 		E9C9C0F1195F1C140011CD9D /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		E9C9BE57195F1B660011CD9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9C9BE56195F1B660011CD9D /* Pong v1.0.0.app */,
+				E9C9BE56195F1B660011CD9D /* Pong v1.1.0.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,8 +113,8 @@
 		E9C9BE60195F1B660011CD9D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E950FFD91960658300BEBD57 /* PBall.png */,
-				E950FFDA1960658300BEBD57 /* PongPlayer.png */,
+				E933387919666CB0008D7FE9 /* PBall.png */,
+				E933387B19666CBB008D7FE9 /* PongPlayer.png */,
 				E9C9BE65195F1B660011CD9D /* sansation.ttf */,
 			);
 			name = Resources;
@@ -165,7 +165,7 @@
 			);
 			name = Pong;
 			productName = Pong;
-			productReference = E9C9BE56195F1B660011CD9D /* Pong v1.0.0.app */;
+			productReference = E9C9BE56195F1B660011CD9D /* Pong v1.1.0.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -200,8 +200,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9C9BE66195F1B660011CD9D /* sansation.ttf in Resources */,
-				E950FFDC1960658300BEBD57 /* PongPlayer.png in Resources */,
-				E950FFDB1960658300BEBD57 /* PBall.png in Resources */,
+				E933387C19666CBB008D7FE9 /* PongPlayer.png in Resources */,
+				E933387A19666CB0008D7FE9 /* PBall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +353,7 @@
 				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME) v1.0.0";
+				PRODUCT_NAME = "$(TARGET_NAME) v1.1.0";
 				SFML_SYSTEM = "";
 			};
 			name = Debug;
@@ -368,7 +368,7 @@
 				);
 				INFOPLIST_FILE = "Pong/Pong-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				PRODUCT_NAME = "$(TARGET_NAME) v1.0.0";
+				PRODUCT_NAME = "$(TARGET_NAME) v1.1.0";
 				SFML_SYSTEM = "";
 			};
 			name = Release;

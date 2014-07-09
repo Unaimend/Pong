@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A805DB25-3AAB-478A-BE41-04E32C896031</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pong</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C57DAF0D-65A4-489D-A633-2E9F3DEDB052</key>
+		<string>https://github.com/Unaimend/Pong.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pong.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C57DAF0D-65A4-489D-A633-2E9F3DEDB052</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Unaimend/Pong.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C57DAF0D-65A4-489D-A633-2E9F3DEDB052</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C57DAF0D-65A4-489D-A633-2E9F3DEDB052</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pong</string>
+		</dict>
+	</array>
+</dict>
+</plist>
